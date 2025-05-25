@@ -2,6 +2,7 @@ const app = Vue.createApp({
     data() {
         return {
             cart:0,
+            isActive: true,
             product: 'Socks',
             brand: 'Vue Mastery',
             image: './assets/images/socks_blue.jpg',
